@@ -1,0 +1,65 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.to-do {
+  border: 2px solid gray;
+  margin: 10px;
+  padding: 20px;
+  width: fit-content;
+}
+.h1-btn-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: -20px 0px;
+}
+.to-do-header {
+  color: rgb(79, 79, 233);
+}
+.to-do-btn-add {
+  margin: 0px 30px;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(52, 189, 63);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.to-do-btn-add:hover{
+  background-color: white;
+  color: rgb(52, 189, 63);
+  font-size: 15px;
+  border: 2px solid rgb(52, 189, 63);
+  transition: all 200ms;
+}
+.to-do-list {
+  margin: 0px 0px;
+}
+.to-do-list-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
+.to-do-list-item-text {
+  font-size: 20px;
+}
+.to-do-list-item-btn {
+  margin: 0px 25px;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(255, 11, 11);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.to-do-list-item-btn:hover{
+  background-color: white;
+  color: rgb(255, 11, 11);
+  font-size: 15px;
+  border: 2px solid rgb(255, 11, 11);
+  transition: all 200ms;
+}
